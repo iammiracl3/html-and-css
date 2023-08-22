@@ -1,0 +1,23 @@
+body {
+   background-color: bisque;
+}
+
+#content {
+    background-color: aqua;
+}
+
+#content1 {
+    background-color: rgb(206, 191, 191);
+}
+
+#content2{
+    background-color: blueviolet;
+}
+
+#content5{
+    background-color: rgb(144, 99, 44);
+}
+
+h1{
+    color: azure;
+}
