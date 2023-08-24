@@ -68,7 +68,7 @@ border-bottom: 10px double lightslategrey;
 
 .flags:nth-of-type(7){
     background-image: url(./images/marple.png),linear-gradient(90deg,red 23.3%,white 23.3%, white 76.7%, red 76.7%); 
-    background-size: 500px, contain;
+    background-size: 200px, contain;
     background-repeat: no-repeat;
     background-position: center;
     border-left: 10px solid gold;
