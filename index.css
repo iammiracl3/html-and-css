@@ -1,23 +1,85 @@
-body {
-   background-color: bisque;
+  @import url('https://fonts.googleapis.com/css2?family=Borel&family=Noto+Sans:ital,wght@1,600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Borel&display=swap');
+
+
+
+  html{
+    font-size: 35px;
+  }
+
+  main{
+    max-width: 1024px;
+    padding: 300px;
+  }
+
+
+  section{
+    margin: 10px auto;
+    width: 70%;
+    height: 600px;
+    /* border: 0.51rem solid rgb(35, 214, 112); */
+  }
+
+
+.flags:nth-of-type(1){
+    background: linear-gradient(90deg,green 33.33%, white.33%, white 66.66%, green 66.66%);
+    border-left: 10px dashed gold;
+    border-right: 10px dashed gold;
+}
+.flags:nth-of-type(2){
+    background: radial-gradient(circle, crimson 40%, white 40%);
+    border-top: 10px solid purple;
+    border-bottom: 10px solid purple;
+}
+.flags:nth-of-type(3){
+    background: linear-gradient(90deg, blue 33.33%, white 33.33%, 66.66%, red 66.66%);
+    border-left: 10px groove plum;
+    border-right: 10px groove plum;
+}
+.flags:nth-of-type(4){
+  background: linear-gradient(180deg, green 33.33%, yellow 33.33%, yellow 66.66%, blue 66.66%);
+   border-top: 10px double lightblue;
+   border-bottom: 10px double lightblue;
+}
+ .flags:nth-of-type(5){
+  background: linear-gradient(180deg, red 33.33%, blue 33.33%, blue 66.66%, green 66.66%);
+    border-left: 10px dashed lightpink;
+    border-right: 10px dashed lightpink;
 }
 
-#content {
-    background-color: aqua;
+.flags:nth-of-type(6){
+background: linear-gradient(90deg, black 33.33%, red 33.33%, red 66.66%, yellow 66.66%);
+border-top: 10px double lightslategray;
+border-bottom: 10px double lightslategrey;
+}
+.radial{
+    font-family: 'Borel', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: transparent;
+    background-image: radial-gradient(gold, black, red);
+    -webkit-background-clip: text;
 }
 
-#content1 {
-    background-color: rgb(206, 191, 191);
+
+.flags:nth-of-type(7){
+    background-image: url(./images/marple.png),linear-gradient(90deg,red 23.3%,white 23.3%, white 76.7%, red 76.7%); 
+    background-size: 500px, contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-left: 10px solid gold;
+    border-right: 10px solid gold
 }
 
-#content2{
-    background-color: blueviolet;
-}
-
-#content5{
-    background-color: rgb(144, 99, 44);
-}
-
-h1{
-    color: azure;
-}
+.flags:nth-of-type(8){
+    background: url(./images/black\ star.png),linear-gradient(180deg, red 33.33%, gold 33.33%, gold 66.66%, green 66.66%);
+    background-size: 200px, contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top: dashed gold;
+    border-bottom: dashed gold;
+    }
